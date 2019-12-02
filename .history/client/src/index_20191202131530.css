@@ -1,0 +1,751 @@
+.mainBody {
+  margin: 0;
+  background: red;
+  position: relative;
+  min-height: 100vh;
+  transform: translateY(auto);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+.visi {
+  visibility: hidden;
+}
+
+.snowflake1 {
+  opacity: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+.snowflake2 {
+  opacity: 1;
+  position: absolute;
+  left: 5vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.snowflake3 {
+  opacity: 1;
+  position: absolute;
+  left: 10vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake4 {
+  opacity: 1;
+  left: 15vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake5 {
+  opacity: 1;
+  left: 20vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.snowflake6 {
+  opacity: 1;
+  left: 25vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.snowflake7 {
+  opacity: 1;
+  left: 30vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake8 {
+  opacity: 1;
+  left: 35vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake9 {
+  opacity: 1;
+  left: 40vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+}
+.snowflake10 {
+  opacity: 1;
+  left: 45vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+}
+.snowflake11 {
+  opacity: 1;
+  left: 50vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 40s;
+}
+.snowflake12 {
+  opacity: 1;
+  left: 55vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s0;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+}
+.snowflake13 {
+  opacity: 1;
+  left: 60vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+}
+.snowflake14 {
+  opacity: 1;
+  left: 65vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 20s;
+}
+.snowflake15 {
+  opacity: 1;
+  left: 70vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+}
+.snowflake16 {
+  opacity: 1;
+  left: 75vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+}
+
+.snowflake17 {
+  opacity: 1;
+  left: 80vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+.snowflake18 {
+  opacity: 1;
+  left: 85vw;
+  position: absolute;
+  left: 5vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.snowflake19 {
+  opacity: 1;
+  left: 90vw;
+  position: absolute;
+  left: 10vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake20 {
+  opacity: 1;
+  left: 95vw;
+  left: 15vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake21 {
+  opacity: 1;
+  left: 100vw;
+  left: 20vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.snowflake22 {
+  opacity: 1;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.snowflake23 {
+  opacity: 1;
+  left: 5vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake24 {
+  opacity: 1;
+  left: 10vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake25 {
+  opacity: 1;
+  left: 15vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.snowflake26 {
+  opacity: 1;
+  left: 20vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake27 {
+  opacity: 1;
+  left: 25vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.snowflake28 {
+  opacity: 1;
+  left: 30vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake29 {
+  opacity: 1;
+  left: 35vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.snowflake30 {
+  opacity: 1;
+  left: 40vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake31 {
+  opacity: 1;
+  left: 45vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake32 {
+  opacity: 1;
+  left: 50vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.snowflake33 {
+  opacity: 1;
+  position: absolute;
+  left: 3vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 5
+}
+.snowflake34 {
+  opacity: 1;
+  position: absolute;
+  left: 7vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.snowflake35 {
+  opacity: 1;
+  position: absolute;
+  left: 12vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 6s;
+}
+.snowflake36 {
+  opacity: 1;
+  left: 17vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 7s;
+}
+.snowflake37 {
+  opacity: 1;
+  left: 22vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake38 {
+  opacity: 1;
+  left: 27vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake39 {
+  opacity: 1;
+  left: 31vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+}
+.snowflake40 {
+  opacity: 1;
+  left: 37vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-delay: 6s;
+}
+.snowflake41 {
+  opacity: 1;
+  left: 42vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.snowflake42 {
+  opacity: 1;
+  left: 47vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake43 {
+  opacity: 1;
+  left: 52vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake44 {
+  opacity: 1;
+  left: 57vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+}
+.snowflake45 {
+  opacity: 1;
+  left: 62vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake46 {
+  opacity: 1;
+  left: 67vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-delay: 6s;
+}
+.snowflake47 {
+  opacity: 1;
+  left: 73vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-delay: 9s;
+}
+.snowflake48 {
+  opacity: 1;
+  left: 77vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
+}
+
+.snowflake49 {
+  opacity: 1;
+  left: 82vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake50 {
+  opacity: 1;
+  left: 87vw;
+  position: absolute;
+  left: 5vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.snowflake51 {
+  opacity: 1;
+  left: 92vw;
+  position: absolute;
+  left: 10vw;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake52 {
+  opacity: 1;
+  left: 97vw;
+  left: 15vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake53 {
+  opacity: 1;
+  left: 94vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake54 {
+  opacity: 1;
+  left: 100vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+}
+.snowflake55 {
+  opacity: 1;
+  left: 97vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+.snowflake56 {
+  opacity: 1;
+  left: 10vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake57 {
+  opacity: 1;
+  left: 15vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.snowflake58 {
+  opacity: 1;
+  left: 20vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake59 {
+  opacity: 1;
+  left: 25vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+.snowflake60 {
+  opacity: 1;
+  left: 30vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake61 {
+  opacity: 1;
+  left: 35vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+.snowflake62 {
+  opacity: 1;
+  left: 40vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+.snowflake63 {
+  opacity: 1;
+  left: 45vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.snowflake64 {
+  opacity: 1;
+  left: 50vw;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation-name: snowflakes;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes snowflakes {
+  0% {
+    visibility: visible;
+    z-index: -1;
+    opacity: 0;
+    top: 0%;
+  }
+  1% {
+    visibility: visible;
+    z-index: -1;
+    opacity: 0;
+    top: 1%;
+  }
+
+  100% {
+    visibility: visible;
+    z-index: -1;
+    top: 100%;
+  }
+}
+
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}

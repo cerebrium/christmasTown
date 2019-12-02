@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.mainTitle {
+  color: rgb(17, 97, 17);
+  font-size: 2em;
+}
+
+
